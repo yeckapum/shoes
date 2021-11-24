@@ -61,18 +61,31 @@
             <div>
                 Qual a melhor forma de entrarmos em contato com você?
                 <label>
-                    <input type="radio" name="contato" id="email">
+                    <input type="radio" value="contato1" name="contato" id="contato_email">
                     Email
                 </label>
                 <label>
-                    <input type="radio" name="contato" id="ligacao">
+                    <input type="radio" value="contato2" name="contato" id="contato_ligacao">
                     Ligaçao
                 </label>
                 <label>
-                    <input type="radio" name="contato" id="whatsapp">
+                    <input type="radio" value="contato3" name="contato" id="contato_whatsapp">
                     WhatsApps
                 </label>
             </div>
+
+            <label>
+                Mensagem
+                <textarea name="mensagem" id="mensagem" cols="30" rows="4"></textarea>
+            </label>
+
+            <label>
+                Currículo
+                <input type="file" name="curriculo" id="curriculo">
+            </label>
+
+            <button type="submit">Enviar</button>
+
         </form>
     </div>
     <div>
